@@ -62,7 +62,7 @@ export default class Experience extends Component {
                   <ul>
                     <li>Successfully implemented the binary search algorithm using C++ to efficiently search for a specified key. </li>
                     <br />
-                    <li>Maintained abstraction by using classNamees to improve code re-usability and maintain modularity for easier debugging. </li>
+                    <li>Maintained abstraction by using classes to improve code re-usability and maintain modularity for easier debugging. </li>
                     <br/>
                     <li>Used the Visual Studio debugger and pair programming in order to debug complex issues and integrate ideas. </li>
                   </ul>
