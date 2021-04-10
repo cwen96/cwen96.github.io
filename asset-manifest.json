@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cwen96.github.io/static/css/main.552e2fe6.chunk.css",
+    "main.js": "/cwen96.github.io/static/js/main.1c3cfc73.chunk.js",
+    "main.js.map": "/cwen96.github.io/static/js/main.1c3cfc73.chunk.js.map",
+    "runtime-main.js": "/cwen96.github.io/static/js/runtime-main.f6b56ea0.js",
+    "runtime-main.js.map": "/cwen96.github.io/static/js/runtime-main.f6b56ea0.js.map",
+    "static/js/2.562a02b8.chunk.js": "/cwen96.github.io/static/js/2.562a02b8.chunk.js",
+    "static/js/2.562a02b8.chunk.js.map": "/cwen96.github.io/static/js/2.562a02b8.chunk.js.map",
+    "static/js/3.253b202b.chunk.js": "/cwen96.github.io/static/js/3.253b202b.chunk.js",
+    "static/js/3.253b202b.chunk.js.map": "/cwen96.github.io/static/js/3.253b202b.chunk.js.map",
+    "index.html": "/cwen96.github.io/index.html",
+    "static/css/main.552e2fe6.chunk.css.map": "/cwen96.github.io/static/css/main.552e2fe6.chunk.css.map",
+    "static/js/2.562a02b8.chunk.js.LICENSE.txt": "/cwen96.github.io/static/js/2.562a02b8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f6b56ea0.js",
+    "static/js/2.562a02b8.chunk.js",
+    "static/css/main.552e2fe6.chunk.css",
+    "static/js/main.1c3cfc73.chunk.js"
+  ]
+}
