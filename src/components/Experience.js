@@ -22,6 +22,32 @@ export default class Experience extends Component {
               <div className="row">
                 <div className="col-sm">
                   <div className="text-center">
+                    <img src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/rushHour.png" className="img-fluid" alt="Responsive"></img>
+                      <br />
+                      <br />
+                  </div>
+                </div>
+                <div className="col-9">
+                  <h3>Rush Hour Game (Java)</h3> <span>Data Structures and Programming</span>
+                  <br />
+                  <a href="http://www.sfu.ca/about.html" target="_blank" rel="noreferrer">Simon Fraser University</a>
+                  <br />
+                  <span>Jan 2021 - May 2021</span>
+                  <ul>
+                    <li>Created a Rush Hour game where the user has to move cars of various lengths out of the way in order 
+                      to clear a path for the red car to exit the parking lot.</li>
+                    <br />
+                    <li>Used a hashmap to keep track of the coordinates of each car on the game board for efficient data access.</li>
+                    <br/>
+                    <li>Implemented unit testing to systematically test edge cases, invalid cases, and normal cases.</li>
+                  </ul>
+                </div>
+              </div>
+              <br />
+              <br />
+              <div className="row">
+                <div className="col-sm">
+                  <div className="text-center">
                     <img src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/bst.png" className="img-fluid" alt="Responsive"></img>
                       <br />
                       <br />
