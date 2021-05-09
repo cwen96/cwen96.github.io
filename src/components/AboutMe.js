@@ -4,9 +4,7 @@ export default class AboutMe extends Component {
   render() {
     return (
       <div className="gray new-section" id="about">
-        <br />
         <h1 className="title">About Me</h1>
-        <br />
         <div className="container">
           <p>I am a caffeine fuelled college student with a passion for computer engineering, environmental science, lifelong learning, and entrepreneurship.
             I enjoy creating programs during my spare time to solve interesting problems and to improve my programming skills.</p>
@@ -24,6 +22,7 @@ export default class AboutMe extends Component {
               A collection of projects that I am currently working on as well as projects that I have completed can be found on my GitHub&nbsp;
               <a href="https://github.com/cwen96" target="blank">here</a>.</p>
         </div>
+        <div className="end-section"></div>
       </div>
     )
   }

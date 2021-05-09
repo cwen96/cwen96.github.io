@@ -7,9 +7,8 @@ export default class Experience extends Component {
         <div className="divider container"></div>
         <div className="exp-color">
           <div className ="new-section" id="experience">
-            <h1 className="title">Experience</h1>
-            <br />
             <div className="container">
+              <h1 className="title">Experience</h1>
               <h2 className="subsection">Technical Skills</h2>
               <ul>
                 <li><b>Software: </b>Python, C/C++, Java</li>
@@ -34,10 +33,11 @@ export default class Experience extends Component {
                   <br />
                   <span>Jan 2021 - May 2021</span>
                   <ul>
-                    <li>Created a Rush Hour game where the user has to move cars of various lengths out of the way in order 
-                      to clear a path for the red car to exit the parking lot.</li>
+                    <li>Created a Rush Hour game where the user has to move cars out of the way in order to clear a path
+                      for a the target car to exit the parking lot.</li>
                     <br />
-                    <li>Used a hashmap to keep track of the coordinates of each car on the game board for efficient data access.</li>
+                    <li>Created a solver using Breadth-First Search to find a solution to a given board and output the 
+                      solution to a file.</li>
                     <br/>
                     <li>Implemented unit testing to systematically test edge cases, invalid cases, and normal cases.</li>
                   </ul>
@@ -228,6 +228,7 @@ export default class Experience extends Component {
                   <br />
                 </div>
               </div>
+              <div className="end-section"></div>
             </div>
           </div>
         </div>

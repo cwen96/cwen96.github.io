@@ -8,9 +8,7 @@ export default class Hackathons extends Component {
         <div>
           <div className="new-section" id="hackathons">
             <h1 className="title">Hackathons</h1>
-            <br />
             <div className="container">
-              <br />
               <h2 className="subsection">nwHacks</h2>
               <div className="row">
                 <div className="col-sm">
@@ -21,14 +19,16 @@ export default class Hackathons extends Component {
                   </div>
                 </div>
                 <div className="col-9">
-                  <h3>Speech-to-Text Processing App</h3>
+                  <h3>Speech-to-Text Processing App (Python)</h3>
                   <span>Jan 2021</span>
                   <ul>
-                    <li>Used Python to implement the Google Cloud Speech-to-Text API to transcribe audio files for text processing.</li>
+                    <li>Created a mobile app that transcribes a video, audio, or text file and then summarizes and organizes 
+                      the data into several main topics determined through NLP.</li>
                     <br />
-                    <li>Used the Python spaCy NLP library to identify the 5 main topics of the transcribed audio file and identify sentences that relate to the 5 main topics.</li>
+                    <li>Achieved 40% - 50% text condensation for lectures and research articles without omitting key ideas.</li>
                     <br />
-                    <li>Worked with 2 designers using Figma to construct the app’s front-end UI.</li>
+                    <li>Built the app using Google Cloud’s Speech-To-Text API for audio/video transcription and Python’s 
+                      spaCy NLP library to analyze the transcribed text.</li>
                   </ul>
                 </div>
               </div>
@@ -55,6 +55,7 @@ export default class Hackathons extends Component {
                   </ul>
                 </div>
               </div>
+              <div className="end-section"></div>
             </div>
           </div>
         </div>

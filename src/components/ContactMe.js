@@ -10,6 +10,7 @@ export default class ContactMe extends Component {
             <br />
             <h2 className="subsection mail">E-mail</h2>
             <p className="mail">chriswen96@gmail.com</p>
+            <div className="end-section"></div>
           </div>
       </div>
     )
