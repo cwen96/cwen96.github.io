@@ -115,9 +115,27 @@ export default class Projects extends Component {
               <div className="row">
                 <div className="col-sm">
                   <div className="text-center">
+                    <img src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/snake.png" className="img-fluid" alt="Responsive"></img>
+                  </div>
+                </div>
+                <div className="col-9">
+                  <h3 className="subtitle">Snake (Python)</h3>
+                  <span className="date">Jun 2021</span>
+                  <ul className="remove-bullets">
+                    <li>Created a fully functioning Snake game complete with a UI using pygame.</li>
+                    <br />
+                    <li>Implemented a scoring system that tracks the user's current score and also the user's high score.</li>
+                    <br />
+                    <li>Reimplemented the game using JavaScript for future use on another website currently under development.</li>
+                  </ul>
+                </div>
+              </div>
+              <br />
+              <br />
+              <div className="row">
+                <div className="col-sm">
+                  <div className="text-center">
                     <img src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/wordCloud.png" className="img-fluid" alt="Responsive"></img>
-                    <br />
-                    <br />
                   </div>
                 </div>
                 <div className="col-9">
