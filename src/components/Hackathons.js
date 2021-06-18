@@ -19,9 +19,9 @@ export default class Hackathons extends Component {
                   </div>
                 </div>
                 <div className="col-9">
-                  <h3>Speech-to-Text Processing App (Python)</h3>
-                  <span>Jan 2021</span>
-                  <ul>
+                  <h3 className="subtitle">Speech-to-Text Processing App (Python)</h3>
+                  <span className="date">Jan 2021</span>
+                  <ul className="remove-bullets">
                     <li>Created a mobile app that transcribes a video, audio, or text file and then summarizes and organizes 
                       the data into several main topics determined through NLP.</li>
                     <br />
@@ -33,6 +33,7 @@ export default class Hackathons extends Component {
                 </div>
               </div>
               <br />
+              <br />
               <h2 className="subsection">Hack the Northeast</h2>
               <div className="row">
                 <div className="col-sm">
@@ -43,9 +44,9 @@ export default class Hackathons extends Component {
                   </div>
                 </div>
                 <div className="col-9">
-                  <h3>Political Bias Detection App</h3>
-                  <span>Jan 2021</span>
-                  <ul>
+                  <h3 className="subtitle">Political Bias Detection App (Python)</h3>
+                  <span className="date">Jan 2021</span>
+                  <ul className="remove-bullets">
                     <li>Created a Google Chrome extension using Python that analyzes the text of an online news article and lets the user know 
                       if the article is politically left leaning, right leaning, or centrist.</li>
                     <br />

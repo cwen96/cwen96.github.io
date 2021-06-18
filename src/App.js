@@ -3,9 +3,9 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Intro from './components/Intro';
 import AboutMe from './components/AboutMe';
-import Experience from './components/Experience';
+import Projects from './components/Projects';
 import Hackathons from './components/Hackathons';
-import ContactMe from './components/ContactMe';
+import Academia from './components/Academia';
 
 class App extends Component {
   render() {
@@ -14,9 +14,9 @@ class App extends Component {
         <NavBar></NavBar>
         <Intro></Intro>
         <AboutMe></AboutMe>
-        <Experience></Experience>
+        <Projects></Projects>
         <Hackathons></Hackathons>
-        {/*<ContactMe></ContactMe>*/}
+        <Academia></Academia>
       </div>
     );
   }

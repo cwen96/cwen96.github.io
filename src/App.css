@@ -1,10 +1,87 @@
+/*Import Carter One font from Google (used for Bootstrap jumbotron).*/
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
 
+/*Import Kulim Park font from Google (used for everything else).*/
 @import url('https://fonts.googleapis.com/css2?family=Kulim+Park&display=swap');
 
-body{
+/*Bootstrap jumbotron component.*/
+.jumbotron{
+  background: url("https://i.imgur.com/Ze5j40Y.jpg") no-repeat right fixed;
+  position: relative;
+  background-size: cover;
+  border-radius: 0%;
+  height: 100vh;
+}
+
+/*Transparent black jumbotron overlay to dim background image.*/
+.jumbotron > .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*Font style of the jumbotron.*/
+.jumbotron > .inner {
+  font-family: "Carter One", sans-serif;
+  z-index: 2;
+  text-shadow: 1.3px 1.3px 1.3px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.jumbotron__name {
+  color: rgb(255, 255, 255, 0.8);
+  font-size: 100px;
+}
+
+.jumbotron__line {
+  border-bottom: 2px solid white;
+}
+
+.jumbotron__description {
+  color: rgb(230, 230, 230, 0.7);
+  padding-top: 15px;
+  font-size: 35px;
+}
+
+/*Default jumbotron background image.*/
+@media screen and (min-width: 1916px) {
+  .jumbotron {
+      background: url("https://i.imgur.com/Ze5j40Y.jpg") no-repeat right fixed;
+      position: relative;
+      background-size: cover;
+      border-radius: 0%;
+      height: 100vh;
+  }
+}
+
+/*Slightly scaled down version of the default image.*/
+@media screen and (min-width: 1600px) and (max-width: 1915px) {
+  .jumbotron {
+      background: url("https://i.imgur.com/Zha3q2G.jpg") no-repeat right fixed;
+      position: relative;
+      background-size: cover;
+      border-radius: 0%;
+      height: 100vh;
+  }
+}
+
+/*Phones, tablets, and smaller screens.*/
+@media screen and (max-width: 1599px) {
+  .jumbotron {
+      background: url("https://i.imgur.com/QnrAyqZ.jpg") no-repeat right fixed;
+      position: relative;
+      background-size: cover;
+      border-radius: 0%;
+      height: 100vh;
+  }
+}
+
+body {
   font-family: 'Kulim Park', sans-serif;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 #intro {
@@ -29,81 +106,12 @@ body{
   padding-bottom: 0px;
 }
 
-.jumbotron{
-  background: url("https://i.imgur.com/Ze5j40Y.jpg") no-repeat right fixed;
-  position: relative;
-  background-size: cover;
-  border-radius: 0%;
-  height: 100vh;
-}
-
-.jumbotron > .overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
-.jumbotron > .inner {
-  font-family: "Carter One", sans-serif;
-  z-index: 2;
-}
-
-@media screen and (min-width: 1916px) {
-  .jumbotron {
-      background: url("https://i.imgur.com/Ze5j40Y.jpg") no-repeat right fixed;
-      position: relative;
-      background-size: cover;
-      border-radius: 0%;
-      height: 100vh;
-  }
-}
-
-@media screen and (min-width: 1600px) and (max-width: 1915px) {
-  .jumbotron {
-      background: url("https://i.imgur.com/Zha3q2G.jpg") no-repeat right fixed;
-      position: relative;
-      background-size: cover;
-      border-radius: 0%;
-      height: 100vh;
-  }
-}
-
-@media screen and (max-width: 1599px) {
-  .jumbotron {
-      background: url("https://i.imgur.com/QnrAyqZ.jpg") no-repeat right fixed;
-      position: relative;
-      background-size: cover;
-      border-radius: 0%;
-      height: 100vh;
-  }
-}
-
 .vertical-center {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgb(240,240,240);
-}
-
-#transparent-white {
-  color: rgb(255, 255, 255, 0.83);
-  font-size: 100px;
-}
-
-#line {
-  border-bottom: 2px solid white;
-}
-
-#overlay-desc {
-  color: rgb(240, 240, 240, 0.9);
-  padding-top: 10px;
-  font-size: 35px;
-  text-align: center;
 }
 
 .navbar-nav > li{
@@ -127,16 +135,17 @@ h3 {
 }
 
 .role {
-  text-decoration: underline;
+  font-weight: bold;
 }
 
 .subsection {
   font-weight: bold;
 }
 
-.exp-color {
-  background: url("https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/tiling.jpg");
-  background-color: rgb(211, 222, 240);
+.proj-color {
+  /*background image instead of solid black*/
+  /*background: url("https://i.imgur.com/aBPAqg6.png");*/
+  background-color: rgb(22, 55, 109);
 }
 
 .divider {
@@ -151,14 +160,41 @@ h3 {
   padding-top: 8px;
 }
 
-.mail {
-  text-align: center;
-}
-
 .container {
   background-color: rgb(250,250,250, 0.9);
 }
 
 .end-section {
   padding-bottom: 175px;
+}
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
+    filter: invert(100%);
+}
+
+.remove-bullets {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel {
+  height:700px;
+}
+  
+.carousel-inner,
+.item,
+img {
+  height: 600px;
+  object-fit: contain;
+}
+
+.subtitle {
+  color: rgb(47, 105, 199);
+}
+
+.date {
+  color:forestgreen;
 }
