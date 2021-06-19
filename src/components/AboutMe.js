@@ -19,7 +19,7 @@ export default class AboutMe extends Component {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 {/*Intro*/}
-                <p className="d-block w-75 mx-auto" alt="First slide">I am a caffeine fueled college student with a passion for computer engineering, 
+                <p className="d-block w-75 mx-auto" alt="First slide"></p><p>I am a caffeine fueled college student with a passion for computer engineering, 
                 environmental science, entrepreneurship, and travelling.</p>
                 <p>I enjoy creating programs during my spare time to solve interesting problems and to learn new skills.</p>
                 <br />
