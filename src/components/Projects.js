@@ -1,15 +1,18 @@
 import React, { Component } from "react";
+import FadeInSection from './FadeInSection';
 
 export default class Projects extends Component {
   render() {
     return (
       <div>
+        <div className="fade-in-section"></div>
         <div className="divider container"></div>
         <div className="proj-color">
           <div className ="new-section" id="projects">
             <div className="container">
               <h1 className="title">Projects</h1>
               <h2 className="subsection">Academic Projects</h2>
+              <FadeInSection>
               <div className="row">
                 <div className="col-sm">
                   <div className="text-center">
@@ -38,6 +41,8 @@ export default class Projects extends Component {
               </div>
               <br />
               <br />
+              </FadeInSection>
+              <FadeInSection>
               <div className="row">
                 <div className="col-sm">
                   <div className="text-center">
@@ -63,6 +68,8 @@ export default class Projects extends Component {
               </div>
               <br />
               <br />
+              </FadeInSection>
+              <FadeInSection>
               <div className="row">
                 <div className="col-sm">
                   <div className="text-center">
@@ -89,7 +96,9 @@ export default class Projects extends Component {
               </div>
               <br />
               <br />
+              </FadeInSection>
               <h2 className="subsection">Personal Projects</h2>
+              <FadeInSection>
               <div className="row">
                 <div className="col-sm">
                   <div className="text-center">
@@ -112,6 +121,8 @@ export default class Projects extends Component {
               </div>
               <br />
               <br />
+              </FadeInSection>
+              <FadeInSection>
               <div className="row">
                 <div className="col-sm">
                   <div className="text-center">
@@ -132,6 +143,8 @@ export default class Projects extends Component {
               </div>
               <br />
               <br />
+              </FadeInSection>
+              <FadeInSection>
               <div className="row">
                 <div className="col-sm">
                   <div className="text-center">
@@ -151,6 +164,7 @@ export default class Projects extends Component {
                 </div>
               </div>
               <div className="end-section"></div>
+              </FadeInSection>
             </div>
           </div>
         </div>

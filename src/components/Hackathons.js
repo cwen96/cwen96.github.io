@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import FadeInSection from './FadeInSection';
 
 export default class Hackathons extends Component {
   render() {
@@ -9,6 +10,7 @@ export default class Hackathons extends Component {
           <div className="new-section" id="hackathons">
             <h1 className="title">Hackathons</h1>
             <div className="container">
+              <FadeInSection>
               <h2 className="subsection">nwHacks</h2>
               <div className="row">
                 <div className="col-sm">
@@ -34,6 +36,8 @@ export default class Hackathons extends Component {
               </div>
               <br />
               <br />
+              </FadeInSection>
+              <FadeInSection>
               <h2 className="subsection">Hack the Northeast</h2>
               <div className="row">
                 <div className="col-sm">
@@ -57,6 +61,7 @@ export default class Hackathons extends Component {
                 </div>
               </div>
               <div className="end-section"></div>
+              </FadeInSection>
             </div>
           </div>
         </div>

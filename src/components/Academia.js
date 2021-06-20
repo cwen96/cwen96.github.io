@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import FadeInSection from './FadeInSection';
 
 export default class Projects extends Component {
   render() {
@@ -10,6 +11,7 @@ export default class Projects extends Component {
             <div className="container">
               <h1 className="title">Academia</h1>
               <h2 className="subsection">Research</h2>
+              <FadeInSection>
               <div className="row">
                 <div className="col-sm">
                   <div className="text-center">
@@ -37,7 +39,9 @@ export default class Projects extends Component {
               </div>
               <br />
               <br />
+              </FadeInSection>
               <h2 className="subsection">Education</h2>
+              <FadeInSection>
               <div className="row">
                 <div className="col-sm">
                   <div className="text-center">
@@ -67,6 +71,8 @@ export default class Projects extends Component {
               </div>
               <br />
               <br />
+              </FadeInSection>
+              <FadeInSection>
               <div className="row">
                 <div className="col-sm">
                   <div className="text-center">
@@ -98,6 +104,7 @@ export default class Projects extends Component {
                 </div>
               </div>
               <div className="end-section"></div>
+              </FadeInSection>
             </div>
           </div>
         </div>

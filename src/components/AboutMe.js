@@ -1,10 +1,12 @@
 import React, { Component } from "react";
+import FadeInSection from './FadeInSection';
 
 export default class AboutMe extends Component {
   render() {
     return (
       <div className="gray new-section" id="about">
         <h1 className="title">About Me</h1>
+        <FadeInSection>
         <div className="container">
           {/*Image carousel element*/}
           <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-interval="false">
@@ -58,6 +60,7 @@ export default class AboutMe extends Component {
           </div>
         </div>
         <div className="end-section"></div>
+        </FadeInSection>
       </div>
     )
   }
