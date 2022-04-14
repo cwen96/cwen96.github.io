@@ -32,7 +32,7 @@ export default class Projects extends Component {
                     <li>Created a Rush Hour game where the user has to move cars out of the way in order to clear a path
                       for the target car to exit the board.</li>
                     <br />
-                    <li>Created a solver using Breadth-First Search to find a solution to a given board and output the 
+                    <li>Created a solver using Breadth-First Search to find a solution to a given board and output a step-by-step 
                       solution to a file.</li>
                     <br/>
                     <li>Implemented unit testing to systematically test edge cases, invalid cases, and normal cases.</li>
@@ -109,11 +109,11 @@ export default class Projects extends Component {
                 </div>
                 <div className="col-9">
                   <h3 className="subtitle">Personal Website (HTML/CSS + React)</h3>
-                  <span className="date">Aug 2020 - Present</span>
+                  <span className="date">Aug 2020 - Jun 2021</span>
                   <ul className="remove-bullets">
                     <li>Created this web page using HTML, CSS, JavaScript, and the Bootstrap framework to track professional and academic achievements.</li>
                     <br />
-                    <li>Used the React framework to organize sections and to maintain modularity.</li>
+                    <li>Used React for the website's front-end for a more modular approach to web development.</li>
                     <br />
                     <li>Implemented JavaScript for fade in animations on user scroll for a natural viewing experience.</li>
                   </ul>

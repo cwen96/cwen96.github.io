@@ -6,6 +6,7 @@ import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Hackathons from './components/Hackathons';
 import Academia from './components/Academia';
+import Experience from "./components/Experience";
 
 class App extends Component {
   render() {
@@ -14,8 +15,9 @@ class App extends Component {
         <NavBar></NavBar>
         <Intro></Intro>
         <AboutMe></AboutMe>
-        <Projects></Projects>
+        <Experience></Experience>
         <Hackathons></Hackathons>
+        <Projects></Projects>
         <Academia></Academia>
       </div>
     );

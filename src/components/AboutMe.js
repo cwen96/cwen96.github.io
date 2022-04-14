@@ -25,7 +25,7 @@ export default class AboutMe extends Component {
                 environmental science, entrepreneurship, and travelling.</p>
                 <p>I enjoy creating programs during my spare time to solve interesting problems and to learn new skills.</p>
                 <br />
-                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/cover.png"></img>
+                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/cover.png" alt="First slide"></img>
                 <div className="carousel-space"></div>
               </div>
               {/*World map*/}
@@ -38,15 +38,15 @@ export default class AboutMe extends Component {
               </div>
               {/*Times Square*/}
               <div className="carousel-item">
-                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/timesSquare.png" alt="Second slide"></img>
+                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/timesSquare.png" alt="Fourth slide"></img>
               </div>
               {/*Banff*/}
               <div className="carousel-item">
-                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/banff.png" alt="Fourth slide"></img>
+                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/banff.png" alt="Fifth slide"></img>
               </div>
               {/*Lake Louise*/}
               <div className="carousel-item">
-                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/lakeLouise.png" alt="Fifth slide"></img>
+                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/lakeLouise.png" alt="Sixth slide"></img>
               </div>
             </div>
             <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
