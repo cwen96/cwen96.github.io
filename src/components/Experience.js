@@ -8,7 +8,7 @@ export default class Experience extends Component {
         <div className="fade-in-section"></div>
         <div className="divider container"></div>
         <div className="proj-color">
-          <div className ="new-section" id="Experience">
+          <div className ="new-section" id="experience">
             <div className="container">
               <h1 className="title">Experience</h1>
               <FadeInSection>
