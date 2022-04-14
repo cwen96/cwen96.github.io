@@ -51,7 +51,7 @@ export default class Projects extends Component {
                 </div>
               </div>
               <div className="col-9">
-                <h4>BASc, Computer Engineering</h4> 
+                <h4 className="subtitle">BASc, Computer Engineering</h4> 
                 <span>
                   <a href="https://www.sfu.ca/about.html" target="_blank" rel="noreferrer">Simon Fraser University</a>
                   <br />
@@ -82,7 +82,7 @@ export default class Projects extends Component {
                 </div>
               </div>
               <div className="col-9">
-                <h4>BSc, Environmental Sciences</h4>
+                <h4 className="subtitle">BSc, Environmental Sciences</h4>
                 <span>
                   <a href="https://www.ubc.ca/about/" target="_blank" rel="noreferrer">University of British Columbia</a>
                   <br />
