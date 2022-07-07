@@ -115,7 +115,7 @@ export default class Projects extends Component {
                     <br />
                     <li>Used React for the website's front-end for a more modular approach to web development.</li>
                     <br />
-                    <li>Implemented JavaScript for fade in animations on user scroll for a natural viewing experience.</li>
+                    <li>Implemented fade in animations using JavaScript for a more aesthetic viewing experience.</li>
                   </ul>
                 </div>
               </div>
