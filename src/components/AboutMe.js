@@ -25,7 +25,7 @@ export default class AboutMe extends Component {
                 environmental science, entrepreneurship, and travelling.</p>
                 <p>I enjoy creating programs during my spare time to solve interesting problems and to learn new skills.</p>
                 <br />
-                <img className="d-block w-75 mx-auto" src="https://drive.google.com/file/d/1mkH4weHZg2KR0MlE4CUc3OFTSr_ZRnDY/view?usp=sharing" alt="First slide"></img>
+                <img className="d-block w-75 mx-auto" src="https://i.imgur.com/ZrdD4rx.jpeg" alt="First slide"></img>
                 <div className="carousel-space"></div>
               </div>
               {/*World map*/}
