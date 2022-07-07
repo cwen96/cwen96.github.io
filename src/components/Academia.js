@@ -63,7 +63,7 @@ export default class Projects extends Component {
                 </span>
                 <p>
                   I am currently pursuing a degree in Computer Engineering from Simon Fraser University and expect to complete my degree by 2024.
-                  My interests in this topic area include full stack software development, hardware design, and machine learning. <br /><br />
+                  My interests in this area include software development, computer architecture, and machine learning. <br /><br />
                   A collection of projects that I am currently working on as well as projects that I have completed can be found on my GitHub&nbsp;
                   <a href="https://github.com/cwen96" target="blank">here</a>.
                 </p>
