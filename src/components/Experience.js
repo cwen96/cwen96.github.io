@@ -22,7 +22,15 @@ export default class Experience extends Component {
                 </div>
                 <div className="col-9">
                 <a className="subtitle" href="https://www.trulioo.com/company/about-us" target="_blank" rel="noreferrer">Trulioo</a>
-                  <div>Quality Assurance Engineer Intern - Automation </div>
+                  <div>Software Engineering Intern</div>
+                  <div>Vancouver, BC</div>
+                  <span className="date">Sep 2022 - Aug 2023</span>
+                  <ul className="remove-bullets">
+                  </ul>
+                  <br />
+                  <br />
+                  <a className="subtitle" href="https://www.trulioo.com/company/about-us" target="_blank" rel="noreferrer">Trulioo</a>
+                  <div>QA Engineering Intern </div>
                   <div>Vancouver, BC</div>
                   <span className="date">Aug 2021 - Apr 2022</span>
                   <ul className="remove-bullets">
