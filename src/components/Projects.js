@@ -58,7 +58,7 @@ export default class Projects extends Component {
                   <br />
                   <span className="date">Apr 2020 - May 2020</span>
                   <ul className="remove-bullets">
-                    <li>Developed a program using C to communicate with a microcontroller and several IR sensors in order to guide a robot through a complex line path. </li>
+                    <li>Developed a program using C to communicate with a microcontroller and several infrared sensors in order to guide a robot through a complex line path. </li>
                     <br />
                     <li>Constructed multiple test tracks to identify and debug unexpected behaviour.</li>
                     <br />
@@ -111,7 +111,7 @@ export default class Projects extends Component {
                   <h3 className="subtitle">Personal Website (HTML/CSS + React)</h3>
                   <span className="date">Aug 2020 - Jun 2021</span>
                   <ul className="remove-bullets">
-                    <li>Created this web page using HTML, CSS, JavaScript, and the Bootstrap framework to track professional and academic achievements.</li>
+                    <li>Created this web page using HTML, CSS, JavaScript, and the Bootstrap framework to track my academic and professional journey</li>
                     <br />
                     <li>Used React for the website's front-end for a more modular approach to web development.</li>
                     <br />
@@ -136,8 +136,6 @@ export default class Projects extends Component {
                     <li>Created a fully functioning Snake game complete with a UI using pygame.</li>
                     <br />
                     <li>Implemented a scoring system that tracks the user's current score and also the user's high score.</li>
-                    <br />
-                    <li>Reimplemented the game using JavaScript for future use on another website currently under development.</li>
                   </ul>
                 </div>
               </div>
@@ -158,8 +156,6 @@ export default class Projects extends Component {
                     <li>Successfully created a program that generates a word cloud with the most frequent words appearing the largest and the least common words appearing the smallest.</li>
                     <br />
                     <li>Implemented the TkInter Python library for the program’s GUI that prompts the user to upload a text file for a more intuitive user experience.</li>
-                    <br />
-                    <li>Maintained a healthy code base by using Git and GitHub for version control.</li>
                   </ul>
                 </div>
               </div>
