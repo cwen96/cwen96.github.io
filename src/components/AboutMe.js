@@ -22,7 +22,7 @@ export default class AboutMe extends Component {
               <div className="carousel-item active">
                 {/*Intro*/}
                 <br />
-                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/cover.png" alt="First slide"></img>
+                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/home.jpg" alt="First slide"></img>
                 <div className="carousel-space"></div>
               </div>
               {/*World map*/}
