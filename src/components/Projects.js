@@ -133,7 +133,7 @@ export default class Projects extends Component {
                   <h3 className="subtitle">Snake (Python)</h3>
                   <span className="date">Jun 2021</span>
                   <ul className="remove-bullets">
-                    <li>Created a fully functioning Snake game complete with a UI using pygame.</li>
+                    <li>Created a fully functioning Snake game complete with a user interface using pygame.</li>
                     <br />
                     <li>Implemented a scoring system that tracks the user's current score and also the user's high score.</li>
                   </ul>
@@ -155,7 +155,7 @@ export default class Projects extends Component {
                   <ul className="remove-bullets">
                     <li>Successfully created a program that generates a word cloud with the most frequent words appearing the largest and the least common words appearing the smallest.</li>
                     <br />
-                    <li>Implemented the TkInter Python library for the program’s GUI that prompts the user to upload a text file for a more intuitive user experience.</li>
+                    <li>Used the TkInter Python library for the program’s user interface that prompts the user to upload a text file for a more intuitive user experience.</li>
                   </ul>
                 </div>
               </div>
