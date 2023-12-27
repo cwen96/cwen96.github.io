@@ -22,28 +22,40 @@ export default class AboutMe extends Component {
               <div className="carousel-item active">
                 {/*Intro*/}
                 <br />
-                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/home.png" alt="First slide"></img>
+                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/home.jpg" alt="First slide"></img>
                 <div className="carousel-space"></div>
               </div>
-              {/*World map*/}
+              {/*Big Buddha*/}
               <div className="carousel-item">
-                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/worldMap.png" alt="Second slide"></img>
+                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/sendai2.jpg" alt="Second slide"></img>
               </div>
-              {/*NYC*/}
+              {/*Seoul*/}
               <div className="carousel-item">
-                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/nyc.png" alt="Third slide"></img>
+                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/seoul.jpg" alt="Third slide"></img>
               </div>
-              {/*Times Square*/}
+              {/*Sendai Tower*/}
               <div className="carousel-item">
-                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/timesSquare.png" alt="Fourth slide"></img>
+                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/sendai.jpg" alt="Fourth slide"></img>
               </div>
-              {/*Banff*/}
+              {/*Bamboo Forest*/}
               <div className="carousel-item">
-                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/banff.png" alt="Fifth slide"></img>
+                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/bambooforest.jpg" alt="Fifth slide"></img>
+              </div>
+              {/*Volcano*/}
+              <div className="carousel-item">
+                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/volcano.jpg" alt="Sixth slide"></img>
               </div>
               {/*Lake Louise*/}
               <div className="carousel-item">
-                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/lakeLouise.png" alt="Sixth slide"></img>
+                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/lakeLouise.png" alt="Seventh slide"></img>
+              </div>
+              {/*Banff*/}
+              <div className="carousel-item">
+                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/banff.png" alt="Eighth slide"></img>
+              </div>
+              {/*Banff*/}
+              <div className="carousel-item">
+                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/golden-gate-bridge.jpg" alt="Nineth slide"></img>
               </div>
             </div>
             <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
