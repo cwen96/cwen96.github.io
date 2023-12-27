@@ -17,6 +17,13 @@ export default class AboutMe extends Component {
               <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
             </ol>
             <div className="carousel-inner">
               <div className="carousel-item active">
@@ -29,21 +36,33 @@ export default class AboutMe extends Component {
               <div className="carousel-item">
                 <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/sendai.png" alt="Second slide"></img>
               </div>
-              {/*Seoul*/}
-              <div className="carousel-item">
-                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/seoul.png" alt="Third slide"></img>
-              </div>
               {/*Sendai Tower*/}
               <div className="carousel-item">
                 <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/sapporo.png" alt="Fourth slide"></img>
+              </div>
+              {/*Volcano*/}
+              <div className="carousel-item">
+                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/volcano.png" alt="Sixth slide"></img>
+              </div>
+              {/*Tori*/}
+              <div className="carousel-item">
+                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/tori.png" alt="Tenth slide"></img>
+              </div>
+              {/*Nara*/}
+              <div className="carousel-item">
+                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/nara.png" alt="Eleventh slide"></img>
               </div>
               {/*Bamboo Forest*/}
               <div className="carousel-item">
                 <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/bambooforest.png" alt="Fifth slide"></img>
               </div>
-              {/*Volcano*/}
+              {/*Nagoya*/}
               <div className="carousel-item">
-                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/volcano.png" alt="Sixth slide"></img>
+                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/nagoya.png" alt="Twelveth slide"></img>
+              </div>
+              {/*Seoul*/}
+              <div className="carousel-item">
+                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/seoul.png" alt="Third slide"></img>
               </div>
               {/*Lake Louise*/}
               <div className="carousel-item">
@@ -53,21 +72,9 @@ export default class AboutMe extends Component {
               <div className="carousel-item">
                 <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/banff.png" alt="Eighth slide"></img>
               </div>
-              {/*Banff*/}
+              {/*Golden Gate Bridge*/}
               <div className="carousel-item">
                 <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/golden-gate-bridge.png" alt="Nineth slide"></img>
-              </div>
-              {/*Tori*/}
-              <div className="carousel-item">
-                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/tori.png" alt="Nineth slide"></img>
-              </div>
-              {/*Nara*/}
-              <div className="carousel-item">
-                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/nara.png" alt="Nineth slide"></img>
-              </div>
-              {/*Nagoya*/}
-              <div className="carousel-item">
-                <img className="d-block w-75 mx-auto" src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/nagoya.png" alt="Nineth slide"></img>
               </div>
             </div>
             <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
