@@ -27,7 +27,6 @@ export default class Hackathons extends Component {
                   <h3 className="subtitle">
                     Speech-to-Text Processing App (Python + Google Cloud API)
                   </h3>
-                  <span className="date">Jan 2021</span>
                   <ul className="remove-bullets">
                     <li>
                       Created a mobile app that transcribes a video, audio, or
@@ -69,7 +68,6 @@ export default class Hackathons extends Component {
                   <h3 className="subtitle">
                     Political Bias Detection App (Python + Google Cloud API)
                   </h3>
-                  <span className="date">Jan 2021</span>
                   <ul className="remove-bullets">
                     <li>
                       Created a Google Chrome extension using Python that

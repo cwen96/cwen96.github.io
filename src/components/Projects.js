@@ -17,6 +17,50 @@ export default class Projects extends Component {
                   <div className="col-sm">
                     <div className="text-center">
                       <img
+                        src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/pattern-matching.jpg"
+                        className="img-fluid"
+                        alt="Responsive"
+                      ></img>
+                      <br />
+                      <br />
+                    </div>
+                  </div>
+                  <div className="col-9">
+                    <h3 className="subtitle">Embedded Pattern Matching Game (C)</h3>
+                    <span className="date">Embedded and Real Time System Software</span>
+                    <br />
+                    <a
+                      href="http://www.sfu.ca/about.html"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Simon Fraser University
+                    </a>
+                    <br />
+                    <ul className="remove-bullets">
+                      <li>
+                        Developed a pattern matching game where the user needs to copy the correct sequence displayed on an 8x8 LED matrix.
+                         After every round, the sequence length increases by 1 until the user makes a mistake, resulting in a game over.
+                      </li>
+                      <br />
+                      <li>
+                        Mapped an 8x8 LED matrix, 4 buttons, power, and ground to pins on the BeagleBone Green development board.
+                      </li>
+                      <br />
+                      <li>
+                        Used sleeps for button debouncing and to prevent the user from updating values too early.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <br />
+                <br />
+              </FadeInSection>
+              <FadeInSection>
+                <div className="row">
+                  <div className="col-sm">
+                    <div className="text-center">
+                      <img
                         src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/rushHour.png"
                         className="img-fluid"
                         alt="Responsive"
@@ -27,7 +71,7 @@ export default class Projects extends Component {
                   </div>
                   <div className="col-9">
                     <h3 className="subtitle">Rush Hour Game (Java)</h3>
-                    <span>Data Structures and Programming</span>
+                    <span className="date">Data Structures and Programming</span>
                     <br />
                     <a
                       href="http://www.sfu.ca/about.html"
@@ -37,10 +81,9 @@ export default class Projects extends Component {
                       Simon Fraser University
                     </a>
                     <br />
-                    <span className="date">Jan 2021 - May 2021</span>
                     <ul className="remove-bullets">
                       <li>
-                        Created a Rush Hour game where the user has to move cars
+                        Recreated the "Rush Hour" game where the user has to move cars
                         out of the way in order to clear a path for the target
                         car to exit the board.
                       </li>
@@ -75,8 +118,8 @@ export default class Projects extends Component {
                     </div>
                   </div>
                   <div className="col-9">
-                    <h3 className="subtitle">Line Following Robot (C/C++)</h3>{" "}
-                    <span>Introduction to Microcontrollers</span>
+                    <h3 className="subtitle">Line Following Robot (C)</h3>
+                    <span className="date">Introduction to Microcontrollers</span>
                     <br />
                     <a
                       href="https://www.kpu.ca/about"
@@ -86,12 +129,11 @@ export default class Projects extends Component {
                       Kwantlen Polytechnic University
                     </a>
                     <br />
-                    <span className="date">Apr 2020 - May 2020</span>
                     <ul className="remove-bullets">
                       <li>
                         Developed a program using C to communicate with a
                         microcontroller and several infrared sensors in order to
-                        guide a robot through a complex line path.{" "}
+                        guide a robot through a complex line path.
                       </li>
                       <br />
                       <li>
@@ -102,7 +144,7 @@ export default class Projects extends Component {
                       <li>
                         Demonstrated effective time management and teamwork
                         skills by delegating tasks through a project schedule in
-                        order to meet important deadlines.{" "}
+                        order to meet important deadlines.
                       </li>
                     </ul>
                   </div>
@@ -127,7 +169,7 @@ export default class Projects extends Component {
                     <h3 className="subtitle">
                       Google Tensor Processing Unit (VHDL)
                     </h3>
-                    <span>Fundamentals of Digital Logic and Design</span>
+                    <span className="date">Fundamentals of Digital Logic and Design</span>
                     <br />
                     <a
                       href="http://www.sfu.ca/about.html"
@@ -137,7 +179,6 @@ export default class Projects extends Component {
                       Simon Fraser University
                     </a>
                     <br />
-                    <span className="date">Nov 2020 - Dec 2020</span>
                     <ul className="remove-bullets">
                       <li>
                         Used VHDL to design and implement a Tensor Processing
@@ -180,7 +221,6 @@ export default class Projects extends Component {
                     <h3 className="subtitle">
                       Personal Website (HTML/CSS + React)
                     </h3>
-                    <span className="date">Aug 2020 - Present</span>
                     <ul className="remove-bullets">
                       <li>
                         Created this web page using HTML, CSS, JavaScript, and
@@ -216,7 +256,6 @@ export default class Projects extends Component {
                   </div>
                   <div className="col-9">
                     <h3 className="subtitle">Snake (Python)</h3>
-                    <span className="date">Jun 2021</span>
                     <ul className="remove-bullets">
                       <li>
                         Created a fully functioning Snake game complete with a
@@ -246,7 +285,6 @@ export default class Projects extends Component {
                   </div>
                   <div className="col-9">
                     <h3 className="subtitle">Word Cloud Generator (Python)</h3>
-                    <span className="date">Aug 2020</span>
                     <ul className="remove-bullets">
                       <li>
                         Created a program that generates a word
@@ -255,9 +293,7 @@ export default class Projects extends Component {
                       </li>
                       <br />
                       <li>
-                        Used the TkInter Python library for the program’s user
-                        interface that prompts the user to upload a text file
-                        for a more intuitive user experience.
+                        Used the TkInter Python library for the program's UI.
                       </li>
                     </ul>
                   </div>

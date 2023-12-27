@@ -29,7 +29,7 @@ export default class Experience extends Component {
                     >
                       Trulioo
                     </a>
-                    <div>Software Engineering Intern</div>
+                    <div><b>Software Engineering Intern</b></div>
                     <div>Vancouver, BC</div>
                     <span className="date">Sep 2022 - Apr 2023</span>
                     <ul className="remove-bullets">
@@ -38,7 +38,7 @@ export default class Experience extends Component {
                       </li>
                       <br />
                       <li>
-                        Parsed JWTs to ensure that users have the permissions to access an image stored in the database.
+                        Parsed JWTs to ensure that users have permissions to access an image stored in the database.
                       </li>
                       <br />
                       <li>
@@ -55,7 +55,7 @@ export default class Experience extends Component {
                     >
                       Trulioo
                     </a>
-                    <div>QA Engineering Intern </div>
+                    <div><b>Software QA Engineering Intern</b></div>
                     <div>Vancouver, BC</div>
                     <span className="date">Sep 2021 - Apr 2022</span>
                     <ul className="remove-bullets">
