@@ -69,7 +69,7 @@ export default class Experience extends Component {
                     </a>
                     <div>QA Engineering Intern </div>
                     <div>Vancouver, BC</div>
-                    <span className="date">Sep 2022 - Apr 2022</span>
+                    <span className="date">Sep 2021 - Apr 2022</span>
                     <ul className="remove-bullets">
                       <li>
                         Developed automation test scripts using C# and Selenium
