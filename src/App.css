@@ -213,3 +213,7 @@ img {
   transform: none;
   visibility: visible;
 }
+
+.shadow {
+  box-shadow: 2px 2px;
+}

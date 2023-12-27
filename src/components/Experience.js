@@ -15,7 +15,7 @@ export default class Experience extends Component {
                 <div className="row">
                   <div className="col-sm">
                     <div className="text-center">
-                      <img src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/trulioo.png" className="img-fluid" alt="trulioo-logo"></img>
+                      <img src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/trulioo.png" className="img-fluid shadow" alt="trulioo-logo"></img>
                       <br />
                       <br />
                     </div>

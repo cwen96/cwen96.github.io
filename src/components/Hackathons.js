@@ -16,7 +16,7 @@ export default class Hackathons extends Component {
                   <div className="text-center">
                     <img
                       src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/nwHacks.png"
-                      className="img-fluid"
+                      className="img-fluid shadow"
                       alt="Responsive"
                     ></img>
                     <br />
@@ -57,7 +57,7 @@ export default class Hackathons extends Component {
                   <div className="text-center">
                     <img
                       src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/htne.png"
-                      className="img-fluid"
+                      className="img-fluid shadow"
                       alt="Responsive"
                     ></img>
                     <br />

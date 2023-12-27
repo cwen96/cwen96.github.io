@@ -18,7 +18,7 @@ export default class Projects extends Component {
                     <div className="text-center">
                       <img
                         src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/pattern-matching.jpg"
-                        className="img-fluid"
+                        className="img-fluid shadow"
                         alt="Responsive"
                       ></img>
                       <br />
@@ -62,7 +62,7 @@ export default class Projects extends Component {
                     <div className="text-center">
                       <img
                         src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/rushHour.png"
-                        className="img-fluid"
+                        className="img-fluid shadow"
                         alt="Responsive"
                       ></img>
                       <br />
@@ -110,7 +110,7 @@ export default class Projects extends Component {
                     <div className="text-center">
                       <img
                         src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/lineFollowingRobot.png"
-                        className="img-fluid"
+                        className="img-fluid shadow"
                         alt="Responsive"
                       ></img>
                       <br />
@@ -158,7 +158,7 @@ export default class Projects extends Component {
                     <div className="text-center">
                       <img
                         src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/TPU.png"
-                        className="img-fluid"
+                        className="img-fluid shadow"
                         alt="Responsive"
                       ></img>
                       <br />
@@ -210,7 +210,7 @@ export default class Projects extends Component {
                     <div className="text-center">
                       <img
                         src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/githubPages.png"
-                        className="img-fluid"
+                        className="img-fluid shadow"
                         alt="Responsive"
                       ></img>
                       <br />
@@ -249,7 +249,7 @@ export default class Projects extends Component {
                     <div className="text-center">
                       <img
                         src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/snake.png"
-                        className="img-fluid"
+                        className="img-fluid shadow"
                         alt="Responsive"
                       ></img>
                     </div>
@@ -278,7 +278,7 @@ export default class Projects extends Component {
                     <div className="text-center">
                       <img
                         src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/wordCloud.png"
-                        className="img-fluid"
+                        className="img-fluid shadow"
                         alt="Responsive"
                       ></img>
                     </div>

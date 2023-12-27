@@ -16,7 +16,7 @@ export default class Projects extends Component {
                   <div className="text-center">
                     <img
                       src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/sfuLogo.png"
-                      className="img-fluid"
+                      className="img-fluid shadow"
                       alt="trulioo-logo"
                     ></img>
                     <br />
@@ -63,7 +63,7 @@ export default class Projects extends Component {
                   <div className="text-center">
                     <img
                       src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/ubcLogo.png"
-                      className="img-fluid"
+                      className="img-fluid shadow"
                       alt="Responsive"
                     ></img>
                     <br />
