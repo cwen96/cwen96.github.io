@@ -41,8 +41,8 @@ export default class Hackathons extends Component {
                     </li>
                     <br />
                     <li>
-                      Built the app using Google Cloud’s Speech-To-Text API for
-                      audio/video transcription and Python’s spaCy NLP library
+                      Built the app using Google Cloud's Speech-To-Text API for
+                      audio/video transcription and Python's spaCy NLP library
                       to analyze the transcribed text.
                     </li>
                   </ul>
@@ -85,7 +85,7 @@ export default class Hackathons extends Component {
                     </li>
                     <br />
                     <li>
-                      Built the app using Google Cloud’s AutoML Natural Language
+                      Built the app using Google Cloud's AutoML Natural Language
                       API, Python, React, JavaScript, and Flask.
                     </li>
                   </ul>

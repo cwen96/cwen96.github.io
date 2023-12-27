@@ -15,11 +15,7 @@ export default class Experience extends Component {
                 <div className="row">
                   <div className="col-sm">
                     <div className="text-center">
-                      <img
-                        src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/trulioo.png"
-                        className="img-fluid"
-                        alt="Responsive"
-                      ></img>
+                      <img src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/trulioo.png" className="img-fluid" alt="trulioo-logo"></img>
                       <br />
                       <br />
                     </div>
@@ -38,23 +34,15 @@ export default class Experience extends Component {
                     <span className="date">Sep 2022 - Apr 2023</span>
                     <ul className="remove-bullets">
                       <li>
-                        Implemented REST endpoints using Kotlin to get and store
-                        user images using S3 buckets, parse jwt tokens to
-                        retrieve the UUIDs of accessible user images, and find
-                        and delete user images from an S3 bucket.
+                        Implemented REST API endpoints using Kotlin to fetch, store, and delete user images from a database.
                       </li>
                       <br />
                       <li>
-                        Wrote unit tests using Mockito to mock endpoint
-                        responses and updated internal API documentation in
-                        accordance with Swagger guidelines with every new
-                        change.
+                        Parsed JWTs to ensure that users have the permissions to access an image stored in the database.
                       </li>
                       <br />
                       <li>
-                        Worked with the MVC model to improve various features of
-                        Trulioo's Android and iOS clients according to updated
-                        Figma design specifications.
+                        Maintained and improved Trulioo's iOS and Android clients.
                       </li>
                     </ul>
                     <br />
@@ -72,8 +60,7 @@ export default class Experience extends Component {
                     <span className="date">Sep 2021 - Apr 2022</span>
                     <ul className="remove-bullets">
                       <li>
-                        Developed automation test scripts using C# and Selenium
-                        to reduce manual testing during release.
+                        Developed automation test scripts using C# to reduce manual testing during release.
                       </li>
                       <br />
                       <li>
@@ -84,8 +71,7 @@ export default class Experience extends Component {
                       <br />
                       <li>
                         Systematically tested new features by going through
-                        expected cases, edge cases, and errors in a team
-                        to ensure full coverage.
+                        expected cases, edge cases, and errors to ensure full coverage.
                       </li>
                     </ul>
                   </div>

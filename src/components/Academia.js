@@ -17,7 +17,7 @@ export default class Projects extends Component {
                     <img
                       src="https://raw.githubusercontent.com/cwen96/cwen96.github.io/master/images/sfuLogo.png"
                       className="img-fluid"
-                      alt="Responsive"
+                      alt="trulioo-logo"
                     ></img>
                     <br />
                     <br />
@@ -42,7 +42,7 @@ export default class Projects extends Component {
                     I am currently pursuing a degree in Computer Engineering
                     from Simon Fraser University and expect to complete my
                     degree by 2025. My interests in this area include software
-                    development, computer architecture, and machine learning.{" "}
+                    development, computer architecture, and AI.{" "}
                     <br />
                     <br />A collection of projects that I am currently working
                     on as well as projects that I have completed can be found on
