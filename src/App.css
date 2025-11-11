@@ -84,6 +84,10 @@ body {
   font-size: 22px;
 }
 
+*:not(input):not(textarea) {
+  caret-color: transparent;
+}
+
 #intro {
   opacity: 0;
 }
