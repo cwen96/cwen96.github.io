@@ -34,15 +34,22 @@ export default class Experience extends Component {
                     <span className="date">Sep 2022 - Apr 2023</span>
                     <ul className="remove-bullets">
                       <li>
-                        Implemented REST API endpoints using Kotlin to fetch, store, and delete user images from a database.
+                        Delivered 5 PoC prototypes that influenced product roadmap decisions and accelerated feature maturity.
                       </li>
                       <br />
                       <li>
-                        Parsed JWTs to ensure that users have permissions to access an image stored in the database.
+                        Designed and implemented REST API endpoints and a gRPC + protobuf prototype for secure image storage and
+                        retrieval.
                       </li>
                       <br />
                       <li>
-                        Maintained and improved Trulioo's iOS and Android clients.
+                        Built a JWT-based authorization layer to meet internal security requirements and harden image access control in
+                        staging and production.
+                      </li>
+                      <br />
+                      <li>
+                        Maintained and improved iOS, Web, and Android clients: diagnosed crashes and implemented fixes that reduced
+                        crash reports by 10%.
                       </li>
                     </ul>
                     <br />
@@ -60,18 +67,18 @@ export default class Experience extends Component {
                     <span className="date">Sep 2021 - Apr 2022</span>
                     <ul className="remove-bullets">
                       <li>
-                        Developed automation test scripts using C# to reduce manual testing during release.
+                        Automated functional and regression tests using C# and Selenium, reducing manual QA time by 30% and
+                        shortening release cycles.
                       </li>
                       <br />
                       <li>
-                        Used React, JavaScript, and TypeScript to develop the
-                        front-end and back-end for an internal tool to reduce
-                        manual test data creation.
+                        Built a full-stack internal tool (React + TypeScript) to automate test data generation, cutting environment setup
+                        time from 4 hours to 10 minutes.
                       </li>
                       <br />
                       <li>
-                        Systematically tested new features by going through
-                        expected cases, edge cases, and errors to ensure full coverage.
+                        Collaborated with dev and QA teams to design new automated tests, achieving near 100% coverage on major
+                        new features.
                       </li>
                     </ul>
                   </div>

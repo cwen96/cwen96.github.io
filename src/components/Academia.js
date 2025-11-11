@@ -39,9 +39,7 @@ export default class Projects extends Component {
                     <div className="date">Sep 2020 - Present</div>
                   </span>
                   <p>
-                    I am currently pursuing a degree in Computer Engineering
-                    from Simon Fraser University and expect to complete my
-                    degree by 2025. My interests in this area include software
+                    I graduated from Simon Fraser University with a degree in Computer Engineering in October 2025. My interests in this area include software
                     development, computer architecture, and AI.{" "}
                     <br />
                     <br />A collection of projects that I am currently working

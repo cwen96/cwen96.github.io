@@ -10,14 +10,14 @@ import Experience from "./components/Experience";
 
 class App extends Component {
   render() {
-    return(
+    return (
       <div>
         <NavBar></NavBar>
         <Intro></Intro>
         <AboutMe></AboutMe>
         <Experience></Experience>
-        <Hackathons></Hackathons>
         <Projects></Projects>
+        <Hackathons></Hackathons>
         <Academia></Academia>
       </div>
     );
