@@ -36,7 +36,7 @@ export default class Projects extends Component {
                     <br />
                     Burnaby, BC
                     <br />
-                    <div className="date">Sep 2020 - Present</div>
+                    <div className="date">Sep 2020 - Oct 2025</div>
                   </span>
                   <p>
                     I graduated from Simon Fraser University with a degree in Computer Engineering in October 2025. My interests in this area include software
