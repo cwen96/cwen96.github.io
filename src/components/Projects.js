@@ -238,6 +238,7 @@ export default class Projects extends Component {
                     <li>
                       Developed testbenches for each hardware component (STPU, URAM, WRAM, registers) and verified the results using ModelSim.
                     </li>
+                    <br />
                     <li>
                       Achieved a fully functional, synthesizable design capable of accelerating small-scale machine learning computations.
                     </li>
@@ -267,23 +268,25 @@ export default class Projects extends Component {
                   </h3>
                   <ul className="remove-bullets">
                     <li>
-                      Designed and prototyped AR glasses capable of real-time transcription using a custom optical display system,
-                      improving accessibility for the hearing impaired.
+                      Designed and prototyped wearable AR glasses capable of real-time transcription using a custom optical display system, 3
+                      omnidirectional microphones, and on-device AI.
                     </li>
                     <br />
                     <li>
-                      Implemented a 3-microphone beamforming algorithm in C++ to suppress background noise from lateral and rear
-                      sources, improving transcription accuracy by 25%.
+                      Responsible for the R&D of a speech-to-text AI model that is over 90% accurate and lightweight to run on a Raspberry Pi 5.
                     </li>
                     <br />
                     <li>
-                      Optimized OpenAI Whisper-based transcription models to run efficiently on a Raspberry Pi 5, reducing average
-                      inference latency to under 500ms.
+                      Implemented a 3-microphone delay-and sum beamformer using C++ to suppress background noise from lateral and rear
+                      sources, improving transcription accuracy by 25% under noisy conditions.
                     </li>
                     <br />
                     <li>
-                      Developed automated test pipelines to benchmark transcription accuracy and latency under varying noise
-                      conditions.
+                      Reduced end-to-end transcription latency from 30s to 2s by chunking audio and streaming it to the model.
+                    </li>
+                    <br />
+                    <li>
+                      Developed automated test pipelines to benchmark transcription accuracy and latency at varying (10dB - 50dB) noise levels.
                     </li>
                   </ul>
                 </div>
@@ -311,18 +314,20 @@ export default class Projects extends Component {
                   <ul className="remove-bullets">
                     <li>
                       Created this web page using HTML, CSS, JavaScript, and
-                      the Bootstrap framework to track my academic and
-                      professional journey
+                      Bootstrap to track academic and
+                      professional achievements.
                     </li>
                     <br />
                     <li>
-                      Used React for the website's front-end for a more
-                      modular approach to web development.
+                      Used React for the website's front-end to learn a new technology and for modularization.
                     </li>
                     <br />
                     <li>
-                      Implemented fade in animations using JavaScript for a
-                      more natural viewing experience.
+                      Layered elements on top of one another for a more professional look.
+                    </li>
+                    <br />
+                    <li>
+                      Implemented fade in animations on user scroll for a natural viewing experience.
                     </li>
                   </ul>
                 </div>
